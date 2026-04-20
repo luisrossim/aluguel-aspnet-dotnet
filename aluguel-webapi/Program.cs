@@ -16,6 +16,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
 
+builder.Services.AddScoped<IAluguelRepository, AluguelRepository>();
 builder.Services.AddScoped<IAluguelService, AluguelService>();
 
 var app = builder.Build();

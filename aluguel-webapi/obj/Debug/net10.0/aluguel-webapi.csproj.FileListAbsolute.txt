@@ -2,10 +2,6 @@ C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\appsettings.json
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.staticwebassets.endpoints.json
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.exe
-C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.deps.json
-C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.runtimeconfig.json
-C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.dll
-C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.pdb
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\Humanizer.dll
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -122,5 +118,9 @@ C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\net10.0\aluguel-webapi.dll
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\net10.0\refint\aluguel-webapi.dll
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\net10.0\aluguel-webapi.pdb
+C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.deps.json
+C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.runtimeconfig.json
+C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.dll
+C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\bin\Debug\net10.0\aluguel-webapi.pdb
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\net10.0\aluguel-webapi.genruntimeconfig.cache
 C:\Users\Luis\Documents\Projects\aluguel-webapi-aspnet\aluguel-webapi\obj\Debug\net10.0\ref\aluguel-webapi.dll

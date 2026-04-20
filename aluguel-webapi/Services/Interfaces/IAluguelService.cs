@@ -2,6 +2,7 @@ using aluguel_webapi.Entities;
 
 public interface IAluguelService
 {
-    string[] listAlugueis();
-    int createAluguel(Aluguel aluguel);
+    Task<List<Aluguel>> getAllAlugueis();
+
+    Task<(bool Sucesso, string Mensagem)> createAluguel(AluguelDTO dto);
 }

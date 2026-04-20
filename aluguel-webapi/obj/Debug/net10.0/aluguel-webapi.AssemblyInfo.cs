@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aluguel-webapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+181a924f8d28f5a6e16a7da901675e0270f5fc37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b77881eb8f1b6ab8df95d6d91cbb21724881caf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("aluguel-webapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aluguel-webapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

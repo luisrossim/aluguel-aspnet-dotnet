@@ -6,22 +6,33 @@ namespace aluguel_webapi.Controllers;
 [Route("/aluguel")]
 public class AluguelController : ControllerBase
 {
-    //deps
+    private readonly IAluguelService _service;
 
-    //construtor
+    public AluguelController(IAluguelService service) => _service = service;
 
-    [HttpGet("{id}")]
-    public IActionResult GetById(string id) 
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
     {
-        string[] alugueis = {"123", "456", "789"};
-
-        bool aluguelExist = alugueis.Any(aluguel => aluguel == id);
-
-        if(!aluguelExist)
+        var alugueis = await _service.getAllAlugueis();
+        
+        if (alugueis == null || alugueis.Count == 0)
         {
-            return NotFound("Nao encontrado");
+            return NoContent();
         }
 
-        return Ok("Aluguel encontrado");
+        return Ok(alugueis);
+    }
+
+  [HttpPost]
+    public async Task<IActionResult> Create([FromBody] AluguelDTO aluguelDto)
+    {
+        var (sucesso, mensagem) = await _service.createAluguel(aluguelDto);
+
+        if (!sucesso)
+        {
+            return BadRequest(mensagem);
+        }
+
+        return Ok(mensagem);
     }
 }
