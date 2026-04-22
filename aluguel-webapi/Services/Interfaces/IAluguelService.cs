@@ -1,8 +1,10 @@
 using aluguel_webapi.Entities;
 
+namespace aluguel_webapi.Services;
+
 public interface IAluguelService
 {
-    Task<List<Aluguel>> getAllAlugueis();
+    Task<List<Aluguel>> GetAllAlugueis();
 
-    Task<(bool Sucesso, string Mensagem)> createAluguel(AluguelDTO dto);
+    Task CreateAluguel(AluguelDTO dto);
 }
